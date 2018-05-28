@@ -1,0 +1,28 @@
+git --version
+git config --global user.name "Omar DER"
+git config --global user.email omar10riche@gmail.com
+
+mkdir mondepolocal
+ cd mondepolocal
+          .......travallez.........
+
+git add myfile.ext
+Ajouter tous les fichiers créés ou modifiés au prochain commit:
+git add -A
+
+Retirer un fichier ajouté avant de commiter:
+git reset HEAD file/to/remove.txt
+
+Commiter sur le dépôt git local:
+git commit -m "My log message"
+
+Et pour commiter avec une identité particulière de façon occasionnelle :
+git commit --author "Firstname Lastname" -m "My log message"
+
+Modifier le message du dernier commit:
+git commit --amend -m "Here the new comment"
+.............................
+Voir l’historique des commits:
+git log
+
+...........................
